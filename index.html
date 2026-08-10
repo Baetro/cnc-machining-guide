@@ -1,67 +1,700 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 
-<title>Baetro Machining | CNC Manufacturing Guide</title>
+<meta charset="UTF-8">
 
-<meta name="description" content="Baetro Machining provides precision CNC machining, CNC milling, CNC turning and custom metal parts manufacturing solutions.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body{
-    font-family:Arial,sans-serif;
-    max-width:900px;
-    margin:60px auto;
-    line-height:1.8;
-    color:#333;
-}
+<title>
+CNC Machining Knowledge Center | Baetro Machining
+</title>
 
-h1{
-    color:#123456;
-}
 
-a{
-    color:#0066cc;
-}
-</style>
+<meta name="description" content="
+Explore CNC machining guides covering milling, turning, tolerances, materials and precision manufacturing insights from Baetro Machining.
+">
+
+
+<link rel="stylesheet" href="style.css">
+
 
 </head>
 
 
 <body>
 
-<h1>Baetro Machining</h1>
 
-<p>
-Baetro Machining is a precision CNC manufacturing company specializing in CNC machining, CNC milling, CNC turning, and custom metal parts production.
+<header class="header">
+
+<div class="container nav">
+
+<div class="logo">
+Baetro Machining
+</div>
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="cnc-milling-guide.html">
+CNC Milling
+</a>
+
+<a href="cnc-turning-guide.html">
+CNC Turning
+</a>
+
+<a href="cnc-tolerances.html">
+Tolerances
+</a>
+
+<a href="cnc-materials.html">
+Materials
+</a>
+
+</nav>
+
+
+</div>
+
+</header>
+
+
+
+
+<section class="hero">
+
+
+<div class="container">
+
+
+<h1>
+CNC Machining Knowledge Center
+</h1>
+
+
+<p class="hero-text">
+
+Precision manufacturing insights covering CNC machining processes,
+engineering guides, material selection, and production technologies.
+
 </p>
 
 
-<h2>CNC Manufacturing Services</h2>
+<div class="buttons">
 
-<ul>
-<li>CNC Milling</li>
-<li>CNC Turning</li>
-<li>Custom Machined Parts</li>
-<li>OEM Manufacturing</li>
-</ul>
+<a class="btn primary"
+href="https://cncservices.goldsupplier.com">
+Visit Baetro Machining
+</a>
 
 
-<h2>Engineering Resources</h2>
+<a class="btn"
+href="#guides">
+Explore Guides
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+<section class="about">
+
+<div class="container">
+
+
+<h2>
+About Baetro Machining
+</h2>
+
 
 <p>
-This knowledge center provides information about CNC machining processes, manufacturing technologies, material selection, and precision engineering.
+
+Baetro Machining is a precision CNC manufacturing company specializing
+in CNC machining, CNC milling, CNC turning, and custom metal parts
+production.
+
+The company provides OEM manufacturing solutions for industrial,
+automation, automotive, and engineering applications worldwide.
+
 </p>
 
 
+</div>
+
+</section>
+
+
+
+
+
+<section id="guides" class="guides">
+
+
+<div class="container">
+
+
+<h2>
+CNC Manufacturing Guides
+</h2>
+
+
+
+<div class="grid">
+*{
+box-sizing:border-box;
+}
+
+
+body{
+
+margin:0;
+
+font-family:
+Arial, Helvetica, sans-serif;
+
+color:#243447;
+
+line-height:1.7;
+
+}
+
+
+.container{
+
+max-width:1100px;
+
+margin:auto;
+
+padding:0 25px;
+
+}
+
+
+
+
+.header{
+
+background:#ffffff;
+
+border-bottom:1px solid #eee;
+
+}
+
+
+.nav{
+
+height:75px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+}
+
+
+
+.logo{
+
+font-size:24px;
+
+font-weight:700;
+
+color:#0B3A66;
+
+}
+
+
+
+nav a{
+
+margin-left:25px;
+
+text-decoration:none;
+
+color:#333;
+
+font-weight:500;
+
+}
+
+
+
+.hero{
+
+background:
+linear-gradient(135deg,#0B3A66,#123d72);
+
+color:white;
+
+padding:100px 0;
+
+}
+
+
+
+.hero h1{
+
+font-size:48px;
+
+margin-bottom:25px;
+
+}
+
+
+.hero-text{
+
+font-size:20px;
+
+max-width:750px;
+
+color:#e5edf7;
+
+}
+
+
+
+
+.buttons{
+
+margin-top:35px;
+
+}
+
+
+
+.btn{
+
+display:inline-block;
+
+padding:14px 28px;
+
+border-radius:6px;
+
+border:1px solid #fff;
+
+color:white;
+
+text-decoration:none;
+
+margin-right:15px;
+
+}
+
+
+
+.primary{
+
+background:#F59E0B;
+
+border-color:#F59E0B;
+
+}
+
+
+
+
+
+section{
+
+padding:70px 0;
+
+}
+
+
+
+h2{
+
+font-size:36px;
+
+color:#0B3A66;
+
+margin-bottom:30px;
+
+}
+
+
+
+
+.about p{
+
+font-size:18px;
+
+max-width:850px;
+
+}
+
+
+
+
+.guides{
+
+background:#f7f9fc;
+
+}
+
+
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:25px;
+
+}
+
+
+
+.card{
+
+background:white;
+
+padding:30px;
+
+border-radius:10px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.06);
+
+}
+
+
+
+.card h3{
+
+color:#0B3A66;
+
+}
+
+
+
+.card a{
+
+color:#F59E0B;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+
+
+
+.resource-list{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:15px;
+
+}
+
+
+
+.resource-list span{
+
+background:#eef4fa;
+
+padding:12px 20px;
+
+border-radius:20px;
+
+}
+
+
+
+
+
+.cta{
+
+background:#0B3A66;
+
+color:white;
+
+text-align:center;
+
+}
+
+
+
+.cta h2{
+
+color:white;
+
+}
+
+
+
+footer{
+
+background:#081f38;
+
+color:white;
+
+padding:40px 0;
+
+}
+
+
+
+footer a{
+
+color:#F59E0B;
+
+}
+
+
+
+
+
+@media(max-width:900px){
+
+.grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+nav{
+
+display:none;
+
+}
+
+
+.hero h1{
+
+font-size:36px;
+
+}
+
+}
+
+
+<div class="card">
+
+<h3>
+CNC Milling Guide
+</h3>
+
 <p>
-Learn more about our CNC machining services:
+Learn CNC milling processes, machine capabilities,
+applications, and manufacturing advantages.
+</p>
+
+<a href="cnc-milling-guide.html">
+Read Guide →
+</a>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+CNC Turning Guide
+</h3>
+
+<p>
+Understand CNC turning operations,
+lathe machining and precision components.
+</p>
+
+<a href="cnc-turning-guide.html">
+Read Guide →
+</a>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+CNC Machining Tolerances
+</h3>
+
+<p>
+A practical guide to CNC accuracy,
+precision requirements and inspection.
+</p>
+
+<a href="cnc-tolerances.html">
+Read Guide →
+</a>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+CNC Materials Selection
+</h3>
+
+<p>
+Explore aluminum, steel, stainless steel
+and engineering materials for CNC parts.
+</p>
+
+<a href="cnc-materials.html">
+Read Guide →
+</a>
+
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section class="resources">
+
+
+<div class="container">
+
+
+<h2>
+Engineering Resources
+</h2>
+
+
+<div class="resource-list">
+
+<span>
+CNC Manufacturing Basics
+</span>
+
+<span>
+Design For Manufacturing
+</span>
+
+<span>
+Surface Finish Guide
+</span>
+
+<span>
+Material Selection
+</span>
+
+<span>
+Quality Inspection
+</span>
+
+</div>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="cta">
+
+
+<div class="container">
+
+
+<h2>
+Need Precision CNC Manufacturing Solutions?
+</h2>
+
+
+<p>
+Visit Baetro Machining for CNC machining,
+custom parts production and OEM manufacturing services.
+</p>
+
+
+<a class="btn primary"
+href="https://cncservices.goldsupplier.com">
+
+Get CNC Solutions
+
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<footer>
+
+
+<div class="container">
+
+
+<h3>
+Baetro Machining
+</h3>
+
+
+<p>
+Precision CNC Manufacturing Knowledge Center
 </p>
 
 
 <a href="https://cncservices.goldsupplier.com">
-Baetro Machining Official Website
+Official Website
 </a>
 
 
+</div>
+
+
+</footer>
+
+
+
 </body>
+
 </html>
